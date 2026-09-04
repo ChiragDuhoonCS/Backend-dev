@@ -25,3 +25,14 @@ console.log(b.replace("Sh", "77"))
 console.log(b.concat(a, "Aishwariya", "Rahul", "Priya"))
 
 console.log(b)
+
+let name1 = "CHirAG"
+let lastname1 = "Duhoon"
+let age1 = 17;
+console.log(name1.length)
+
+console.log("My name is " + name1 + "and im " + age1);
+console.log(name1.toUpperCase());
+console.log(name1.slice(1,4));
+let fullname1 = name1+" "+lastname1
+console.log(fullname1)
