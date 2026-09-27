@@ -37,3 +37,11 @@ typeof []
 //@ eska part hai kya
 a instanceof Array
 // Output: true
+
+
+let score = 78;
+
+//> if anythingf is false uska question mark ?op wala nhi chalga but : wala chlaga
+let grade = score >= 90 ? "A" : score >= 75 ? "B" : score >= 60 ? "C" : "Fail"; 
+
+console.log(grade);
