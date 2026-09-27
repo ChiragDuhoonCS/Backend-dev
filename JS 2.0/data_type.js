@@ -35,6 +35,9 @@ aur galti se humaari banaai hui fields us library ki original fields ko
 change kar deta hai
  */
 
+// NaN means not a number
+
+
 let sheryjs = {
     uid: 12,
     model: "harsh"
