@@ -37,5 +37,33 @@ let g;
 //* SYMBOL
 // unique immutable (cant change)
 // when we use libraries  unma kuch asa fields hota hai jo hmna phala bhe bna rakho ho aur ya hmara wala fields ko change kar deta hai
+/*// future mein hum koi libraries use karege ab is case mein un libraries
+mein kai baar kuchh fields hoti hai jinse similar hum bhi banaa dete hai
+aur galti se humaari banaai hui fields us library ki original fields ko
+change kar deta hai
+ */
+
+let sheryjs = {
+    uid: 12,
+    model: "harsh"
+}
+sheryjs.uid = 1; // it just change from 12 to 1   we dont want that
+
+let symbol
+
+let u1 = Symbol("uid");
+let u2 = Symbol("uid"); // both same but unique
 
 
+// uid will remain same
+let obj = {
+    uid: 1,
+    name: "harsh",
+    age: 12,  
+    email: "test@test.com",
+};
+
+let u5 = Symbol("uid"); 
+obj[u5] = 7465;
+
+//*  
