@@ -8,14 +8,6 @@ let b = a; //> if we change anything in a   b will be still 10 b has its on 10
 a = a +2;
 
 
-//! reference
-//@ when copy we only get their reference   array object function  []   {}   ()
-
-//example
-let c = [1,2,3,4];
-let d = c; //> c change then d change   d just have reference   d doesnt have its own
-
-
 //*  STRINGS
 // ''   ""   ``   these three can use to type value for string
 
@@ -66,4 +58,19 @@ let obj = {
 let u5 = Symbol("uid"); 
 obj[u5] = 7465;
 
-//*  
+//* BIGINT  just use n in last to expand limit
+// we ahve limit to add stuff 
+Number.MAX_SAFE_INTEGER 
+let z = 38764576453836354n;
+
+
+
+
+//! reference   bracket means reference   we cant copy value
+//@ when copy we only get their reference   array object function  []   {}   ()
+
+//example
+let c = [1,2,3,4];
+let d = c; //> c change then d change   d just have reference   d doesnt have its own   IF b CHANGE THEN a CHANGE
+
+ 
