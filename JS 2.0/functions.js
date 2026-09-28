@@ -17,6 +17,20 @@ let fnc = () => {
 };
 
 
+//! filling values
+
+function dance(v1) {
+    console.log(`${v1} naach raha hai`); //! seee hereeeeeee   ' this matter
+}
+
+dance("ghoda");
+dance("hirad");
+dance("cheel");
+dance("lakadbaggha");
+
+
+
+//@ we calling values
 fnc();
 nigga();
 nigga();// can call function more time to print out more
