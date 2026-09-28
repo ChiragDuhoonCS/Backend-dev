@@ -29,6 +29,15 @@ dance("cheel");
 dance("lakadbaggha");
 
 
+function add(v1, v2) {
+    console.log(v1 + v2);
+}
+
+add(1, 2);
+add(11, 22);
+add(111, 222);
+
+
 
 //@ we calling values
 fnc();
