@@ -45,6 +45,16 @@ function abcd(...val) {
 abcd(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 
+//! important var
+// jab arguments kai saare ho to humein utne hi parameter banaane padege, issey bachne ke liye, hum rest ka use karte hai ... agar ... function ke parameter space mein lage to wo rest operator hai
+
+function abcd(...val) {
+    console.log(val);
+}
+
+abcd(1, 2, 3, 4, 5, 6);
+
+
 
 //@ we calling values
 fnc();
