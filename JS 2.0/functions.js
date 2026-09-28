@@ -55,6 +55,16 @@ function abcd(...val) {
 abcd(1, 2, 3, 4, 5, 6);
 
 
+//! retrun
+// return matlab jaha se aaye ho wahi daal denge
+function abcd(v) {
+    return 12 + v;
+}
+
+let val = abcd(23);
+console.log(val);
+
+
 
 //@ we calling values
 fnc();
