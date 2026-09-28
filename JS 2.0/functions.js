@@ -37,6 +37,13 @@ add(1, 2);
 add(11, 22);
 add(111, 222);
 
+//! ARRAY
+function abcd(...val) {
+    console.log(val);
+}
+
+abcd(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
 
 
 //@ we calling values
